@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/question_text_view" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/false_button_text"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/false_button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/true_button_text"
+            android:id="@+id/true_button" />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cheat_button"
+        android:text="@string/cheat_button_text"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:drawablePadding="4dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/description_image_back"
+            android:id="@+id/back_button" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/forward"
+        android:drawablePadding="4dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/description_image_forward"
+        android:id="@+id/next_button" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
